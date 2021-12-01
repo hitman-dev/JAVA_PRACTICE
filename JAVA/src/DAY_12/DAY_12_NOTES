@@ -1,0 +1,19 @@
+----for each loop
+In for each we cannot remove element from the collection
+
+---iterator
+In Iteration we remove element from the collection
+using iterator we can only traverse forward only only only once
+Iterator has only 3 function
+next(), hasNext(), remove()
+
+-----for sorting we use Comparable, Comparator
+Comparable ----> int compareTo(Student s1)
+This method return -ve value if s1<s2
+else returns 0 if s1=s2
+else it returns +ve number if s1>s2
+
+Comrparator -----> int compare(Student s1,Students2)
+This method return -ve value if s1<s2
+else returns 0 if s1=s2
+else it returns +ve number if s1>s2
