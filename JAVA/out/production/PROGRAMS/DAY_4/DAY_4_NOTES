@@ -1,0 +1,87 @@
+Scanner is a class which helps to read data from keboard or file
+sc.next() and sc.nextLine() these are used for reading string
+--- sc.next() will read the string without spaces and it will not remove
+\n from scanner buffer
+
+--- sc.nextLine() will read the string with spaces and it will terminate when it will
+read \n, it will remove \n from scanner buffer
+
+---to print formatted output use format or printf function
+ System.out.format("%d * %d = %d\n",i,num,(i*num));
+ or
+ System.out.printf("%d * %d = %d\n",i,num,(i*num));
+
+ %d --- display int
+ %f   float
+ %s   String
+ %c   Char
+
+---to print data on the same line by next print staements
+ System.out.print();  ///
+
+---- to print on the next line
+  System.out.println();
+
+///conditional statements
+if statements
+if statement contains only one statement the curly
+braces are not manditory, else is optional
+
+if(condition){
+
+}else{
+   if(){
+
+   }
+}
+
+switch case
+
+
+----- loops in java
+for loop ----counter loop
+///if we know how many times to repeate then we use for loop
+for(intialization;condition;increment/decrement)
+//all these sections are optional
+for(;;){    ////this will become infinite for loop
+}
+
+int i=1;
+for(;i<12;){   /// only condition is given
+
+  i++;
+}
+
+for(int i=0,j=0; i< 10;i=i+3){
+
+}
+
+2. while loop // while is used when you don't know how many times to repeate the
+statements
+///top tested loop
+while(condition){
+
+}
+
+3. do...while
+when you want to repeate statements atleast once after that you want to
+test the condition
+///bottom tested loop
+do{
+
+}while(condition);
+
+//break and continue
+
+if you want to forcefully stops the loop then use break statement
+
+countinue skips the portion of the loop written below.
+and bring the control at the begining of the loop,
+
+
+
+
+
+
+
+

@@ -1,0 +1,40 @@
+-----It is good practice that write main method in separate class
+---and all functions in separate class and call that class as util class
+or service class
+
+
+-----packages in java
+why we store classes in different packages
+1. better organization , hence managing data is easy.
+2. easy to import
+3. to avoid naming confilt use packages
+
+---if class is in different package then it is neccessary
+to import the class
+----only public classes are accessible ouside packages.
+
+
+modifier
+static
+final
+private, public, protected
+
+------private members are acceible only within class
+------ protected members are accessible to child classes within package and outside package
+       also accessible to all classes within package
+----- default members are accessible to all classes within package
+------public memebers are accessible everywhere
+
+
+static--- it can be used with member variables, functions and nested class can be static
+        static block
+
+
+
+
+
+
+
+
+
+

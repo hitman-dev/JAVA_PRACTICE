@@ -1,0 +1,11 @@
+---to create a object
+Scanner sc=new Scanner(System.in);
+		/*System.out.println("enetr id");
+		int id=sc.nextInt();*/
+		System.out.println("enetr name");
+		String name=sc.next();
+		System.out.println("enter address");
+		String addr=sc.next();
+		//crete obje t using parametrised constructor
+		Student ob2=new Student(name,addr);
+		System.out.println(ob2);

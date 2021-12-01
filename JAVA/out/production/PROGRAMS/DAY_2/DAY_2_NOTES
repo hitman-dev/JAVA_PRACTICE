@@ -1,0 +1,35 @@
+Data types in java
+primitive data types
+
+byte---- 1 byte    8 bit --- -128 to 127-----Byte
+short ---- 2 byte ---------------------------Short
+int ----- 4 byte    32567--------------------Integer
+long ----- 8 byte----------------------------Long
+float ---- 4 byte----------------------------Float
+double ----- 8 byte--------------------------Double
+char    ---  2 byte --------------------------Character
+boolean  --- 1 bit----------------------------Boolean
+
+String ---- Class---> in java lang
+
+byte>short>int>long
+
+float>double
+
+int>float
+----why long to float is implicit typecasting?
+long>float
+
+
+-----all variable declared inside function are local variable.
+---- all these variables are blocked scope
+----- all local variable has to be explicitely initilized
+
+---- any primitive data type variable can be converted into corresponding
+Wrapperclass object is called as Boxing, and boxing is automatic
+-----any wrapper class object can be converted into corresponding primitive
+data type vaiable called as unboxing, and it is automatic.
+---to create constant variables we can use keyword final
+
+
+What is difference between StringBuffer and StringBuilder class?

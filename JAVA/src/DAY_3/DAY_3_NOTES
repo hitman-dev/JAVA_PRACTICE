@@ -1,0 +1,133 @@
+Data types in java
+primitive data types
+
+byte---- 1 byte    8 bit 2^8--- -128 to 127-----Byte
+short ---- 2 byte   16 bit 2^16 - 32567--------------------------Short
+int ----- 4 byte   32 bit 2^32 --------------------Integer
+long ----- 8 byte----------------------------Long
+float ---- 4 byte----------------------------Float
+double ----- 8 byte--------------------------Double
+char    ---  2 byte --------------------------Character
+boolean  --- 1 bit----------------------------Boolean
+
+String ---- Class---> in java lang
+
+-----implicit conversion is possible
+byte>short>int>long
+
+byte b=12
+short s=b;  //implicit typecasting
+s=b*1000;
+
+
+
+
+
+---when you want tostore data from bigger size memory into smaller
+size memory then use explicit typecasting
+
+int i=45;
+short s=(short)i;   //2^16
+System.out.println(s)
+
+
+float>double
+
+int>float
+----why long to float is implicit typecasting?
+long>float
+------ float store data in  exponetial format and hence any bignumber into smaller space
+ 3e+20
+
+-----What is static polymorphism (function overloading)
+when you write more than one function with same name but different type of
+parameter or different
+number of parameters is called as function overloading
+it is also called as static polymorphism
+
+
+-----While using string
+1. string is a immutable object
+2. pool of constants is a separate memory in JVM which helps to store constant string objects
+2. When we use s==s1   it checks memory location
+        String s="Hello";   --- this will check if object exists in String pool of constants if not exists then
+		                  ----it will create a new object and store it in pool of constant
+		String s11="Hello";
+		System.out.println(s==s11); //true
+		System.out.println(s.hashCode());
+		System.out.println(s11.hashCode());
+3. When you want to compare 2 string values then use equals method
+		String s2=new String("hello");
+		System.out.println(s==s2); //false
+		System.out.println(s.equals(s2));   ///true
+		System.out.println(s2.hashCode());
+		s2=new String("welcome");
+		System.out.println(s2.hashCode());
+		String s3=new String("hello");
+
+------What is difference between StringBuffer and StringBuilder class?
+When you want to modify string then it creates separate object but if you want to create
+mutable string then use StringBuffer or StringBuilder
+
+
+
+
+-----all variable declared inside function are local variable.
+---- all these variables are blocked scope
+{
+  int i=10  /// int can be used inside the scope of curly braces
+}
+
+----- all local variable has to be explicitely initilized
+
+----- if you declare value and initialize it on the same line then it is initialization
+------if you declare variable on one line and assign value on separate line then
+it is assignment
+int num=12;  // initialization
+		int choice;
+		do {
+			 choice=10;   ///assignment
+		}while(choice!=5);
+
+
+---- any primitive data type variable can be converted into corresponding
+Wrapperclass object is called as Boxing, and boxing is automatic
+int i=23;
+Integer ob=i; ///boxing
+
+double sal=34.56;
+Double d=sal;  //boxing
+
+
+
+-----any wrapper class object can be converted into corresponding primitive
+data type vaiable called as unboxing, and it is automatic.
+Integer ob=new Integer(10);  /// create integer object
+int j=ob;  //unboxing
+
+Double d=new Double(34.56);
+double d1=d; //unboxing
+
+---to create constant variables we can use keyword final
+----constants variable can be initialized or can be assigned value only once;
+--- and then value cannot be changed otherwise it gives compile time error
+
+final int i=23;
+i=34; ///error
+
+final int c;
+c=45;
+c=56 ///error
+
+----effectively final variable
+any non final variable has assigned value only once throughout the program then it is called as
+effectively final
+int i;
+i=10;
+
+
+--If you want to call a function without creating object
+of the class then make the function static
+
+----local variable canbe final variable or normal variable. it cannot be static.
+

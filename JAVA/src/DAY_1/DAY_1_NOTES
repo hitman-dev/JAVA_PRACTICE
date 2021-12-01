@@ -1,0 +1,31 @@
+Java programming
+J2SE ----Java standard Edition--------- desktop or single user application---core java
+J2EE----Java Enterprise edition---------Web application , web services
+J2ME----Java MicroEdition--------- Mobile applications
+
+Core Java -----version 8, eclipse
+C++ not platform independent, not machine independent
+1997-1998 ----- web application-WORA –write once Read anywhere
+features of java
+•	platform independent----- it will run on any OS(unix,MAC,Windows)
+•	machine independent---- it will work on any machine
+•	simple------ not * operator and no & operator
+•	Object oriented programming -----encapsulation,polymorphism,inheritance
+•	Garbage collector---memory management is done by GC---there no memory leak
+•	Network programming ------- RMI(Remote method Invocation),Socket programing
+•	Multithreading ---- it supports multithreading
+•	Database connectivity
+•	secure
+•	Robust
+
+
+
+
+
+To give i/p to the program
+1.	Keybord
+2.	Commandline arguments
+3.	read data from file
+4.	read data from database
+
+

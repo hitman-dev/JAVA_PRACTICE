@@ -1,0 +1,14 @@
+----use default constructor with setter method
+1. when the sequence of parameters is no known
+2. When all parameters you want to set are not avaialable
+3. when a class has lot of parameters
+		System.out.println("enetr name");
+		name=sc.next();
+		System.out.println("enter address");
+		 addr=sc.next();
+		 //create object by using default constructor
+		Student ob3=new Student();
+		ob3.setSname(addr);
+		ob3.setSname(name);
+
+		System.out.println(ob3);

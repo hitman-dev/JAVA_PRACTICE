@@ -1,0 +1,53 @@
+
+------inheritance and polymorphism
+advantages
+1. when you want to increse reusablity of the code
+2. size of gets reduced.
+3. finding errors becomes
+4. maintainance of the code is easy
+
+abstract classes
+interface
+parent class
+child class
+
+------- 4 types of inheritance
+1. single level
+2. multileve;
+3. multiple
+4. hybrid
+
+Java support single level inheritance, multilevel inheritance only
+because in java one class can have only one parent
+
+But using Interface indirect we can use Multiple and hybrid inheritance
+
+----child class costructor always calls parents default constructor by default
+use super keyword to call parametrised constructor explicitly
+---super has to be the first line of the constructor.
+
+------to call another constructor of same class use this keyword.
+
+
+---parent class reference can pont to child class
+---- to call any methodfrom child class using parent class reference
+then
+1. add that method in parent class and override the method in child
+2. explicitely typecast the object.
+
+because child class object is implicitly converted into parent class referencebut vice
+versa is not true
+
+upcasting is implicit but downcasting is explicit
+
+
+
+
+
+
+
+
+
+
+
+
