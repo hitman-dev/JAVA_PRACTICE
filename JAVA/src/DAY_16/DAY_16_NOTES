@@ -1,0 +1,33 @@
+-----any interface which has only one abstract method,
+ then it is called as functional interface
+ example Comparable,Comparator
+
+---hashSet internally uses hashCode and equals method while adding,serchong data
+---if you override hashCode then override equals also
+---but in ArrayList you can use only equals method.
+
+---in TreeSet it uses Comparable by default,
+ otherwise you need to pass comparator object in the TreeSet constructor while creating object
+
+
+ ----BackedCollection are views based on original collections
+--these functions are available only in sorted collection
+If original collection changes the backed collection also changes
+TreeSet<Integer> ts=new TreeSet<>();
+		ts.add(12);
+		ts.add(1);
+		ts.add(10);
+		ts.add(15);
+		ts.add(30);
+		ts.add(7);
+		ts.add(3);
+		System.out.println(ts);
+		Set<Integer> s=ts.headSet(18,true);
+		System.out.println("headset "+ts.headSet(18,true));
+		System.out.println("tailset "+ts.tailSet(7));
+		System.out.println("tailset "+ts.subSet(3,true,15,true));
+		System.out.println("-------------------");
+		ts.add(6);
+		ts.add(4);
+		System.out.println(ts);
+		System.out.println(s);
