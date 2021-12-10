@@ -1,0 +1,86 @@
+1.	Static inner class- a class declared inside a class and it is static class
+class book{
+  private bkid;
+……
+static class Publication{
+}
+
+}
+
+Book.Publication ob=new Book.Publication();
+
+Static inner class can access only static members of outer class.
+2.	Inner class (nested classes)
+class book{
+  private bkid;
+……
+class Lesson{
+}
+
+}
+Book b=new Book();
+Book.Lesson l=b.new Lesson(12,"lesson1");
+
+3.	Method inner classes.
+Local nested class
+class Book{
+
+ void m1(){
+      class LocalNested{
+             void m2(){
+                   SYSOUT(“In local nested class”);
+             }
+     }
+   LocalNested ob=new LocalNested();
+   ob.m2();
+}
+}
+4.	Annonymous class
+/*class Book{
+    private bkid;
+    private String bknm;
+}*/
+
+class TestBook{
+  public static void main(String[] args){
+       Book b=new Book(){
+            public int getPrice(){
+                   return 345;
+            }
+
+      }
+   b.getPrice();
+  }//end of main
+
+
+}//end of class
+
+
+Java 1.8 feature
+Functional Interface
+1.	predicate
+2.	consumer
+3.	function
+4.	supplier
+
+               Stream Classes
+              IntStream, DoubleStream
+             Stream
+             stream function
+1.	filter(predicate)
+             plist.stream().forEach(x->system.out.println(x))
+            List<Person> list2=new ArrayList<>();
+            for(Person ob:plist){
+              if(ob.getage()>40){
+                   list2.add(ob);
+              }
+            }
+           Predicate<person> p=x->x.getage()>40;
+int max=56;
+           List<Person> list2=  plist.stream().filter(x->x.getage()>40 && x.getAge>max).collect(Collectors.toList());
+           plist.stream().filter(x->x.getAge()>40).forEach(x->System.ot.println(x);)
+       Stream functions are divided into 2 type
+1.	terminating function  ---- collect, forEach, anyMatch, allMatch,ifPresent
+2.	intermediate function   -----filter, map,flatmap
+    ----stream functions doesnot get executed unless it ends with terminating stream function
+  ------ one stream object can be used only once for navigation.
