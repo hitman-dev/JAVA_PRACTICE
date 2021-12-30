@@ -1,0 +1,8 @@
+Q11. Write a Java program to store Student information studid, name, degree, email in a ArrayList
+of student , at the time of exit write data in student.csv file in csv format
+Q12. Write another program to read data from file created in Q11. and store it in the ArrayList and
+display all the Students information on the screen.
+Q13. Write a converter program to read student.csv file created in Q11. and serialize data in another
+file student.txt using ObjectOutputStream
+Q14. Read file student.txt and display only students with degree BE or BTech. (Note :use
+ObjectInputStream to read data from file.)

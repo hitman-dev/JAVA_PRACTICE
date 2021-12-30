@@ -1,0 +1,3 @@
+Q1. Write a java program to add, delete, modify, and display all products, display product based on
+productid, display all product with qty > given qty.
+Create product table in data base to store data. (Use JDBC)

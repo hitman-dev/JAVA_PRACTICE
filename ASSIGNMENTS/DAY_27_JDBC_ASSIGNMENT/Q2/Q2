@@ -1,0 +1,4 @@
+Create user table in mysql to store username, address, mobile and email. Add 10 records in the table
+Write a java program to accept username and address from user check whether user exists in user
+table. If exists, then display details of user on the screen and if user not found then accept user
+details and store it in the table (Use JDBC)
