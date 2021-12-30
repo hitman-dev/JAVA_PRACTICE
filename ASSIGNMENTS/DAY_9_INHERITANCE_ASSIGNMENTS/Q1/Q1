@@ -1,0 +1,20 @@
+1. Design a system for “ABC university “ to store information about students and faculties
+for students store sid,sname,degree,m1,m2,m3 but student can be bachelor student or a
+phd student
+for phd student store thesisname,guide,thesismarks
+bachelor student store internshipcompany,spsubject,marks for sp.subjec
+faculty fid,fname,spsub,skills,sal
+calculateSal()
+ sal + 10%sal DA + 15%sal HRA-8% sal PF
+//university
+Person---id,name
+Student---degree,m1,m2,m3
+Faculty----spsub,skills,sal
+Bachelor student
+ internshipcompany,spsubject,marks for sp.subject
+calculatePercentage
+ ( m1+m2+m3+m4)/4
+phdstudent
+thesisname,guide,thesismarks
+calculatePercentage
+ ( (m1+m2+m3)/3)*0.10+thesismarks*0.90

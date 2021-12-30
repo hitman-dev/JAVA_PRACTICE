@@ -1,0 +1,11 @@
+1. Write a program to store information about IPL team
+Create Team class to store teamid, tname, coachname, and list of players.
+and perform following operations
+1. add new Team
+2. delete a team
+3. delete a player from team(accept player id to delete)
+4. display all batsman
+5. display all player with a speciality(accept speciality from user)
+6. add a new player in a team
+7. modify coach of a team
+8. exit
