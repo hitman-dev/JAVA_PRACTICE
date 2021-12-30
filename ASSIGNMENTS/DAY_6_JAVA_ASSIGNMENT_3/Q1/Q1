@@ -1,0 +1,2 @@
+1. Accept 3 numbers from command line arguments. If number is prime, then print the table of
+the number. Other wise divide number by 10 and display output

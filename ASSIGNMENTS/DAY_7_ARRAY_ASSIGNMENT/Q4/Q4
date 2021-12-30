@@ -1,0 +1,11 @@
+4. Write a menu driven program to maintain student information. Modify Student class
+created in previous assignment. Add a member gpa in student class, add a function in
+student class to return GPA of a student
+ calculateGPA()
+ gpa=(1/3)*m1+(1/2)*m2+(1/4)*m3
+Create an array to store Multiple students.
+1. Display All Student
+2. Search by id
+3. Search by name
+4. calculate GPA of a student
+5. Exit

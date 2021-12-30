@@ -1,0 +1,4 @@
+3. Write a java program to store information of your friends
+id,name,lastname,hobbies,mobno,email,bdate,address
+note: hobbies- a friend may have multiple hobbies
+create 3 objects and display it

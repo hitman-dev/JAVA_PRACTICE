@@ -1,0 +1,6 @@
+3. Write a program to create a class song add songid,lyrics,singer name,
+create SongService class add function to
+addsong() to accept a song details and store it in array
+displayAllsongs---- to display all songs
+Song[] displayByActor(String name) ---- display all songs of a particular singer, pass
+singername as a parameter to the function

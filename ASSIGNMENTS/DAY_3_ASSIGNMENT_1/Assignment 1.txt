@@ -1,0 +1,16 @@
+1. Accept 10 numbers from user find maximum number
+2. Accept a number  n from user and display n lines of following traiangle
+*
+**
+***
+1
+12
+123
+1234
+3. Accpet principal, rate of interest, number of years from user calculate simple interest
+4. Accpet 3 numbers from user and display mximum and minimum number.
+5. Accept Income from user and calculate tax
+income            			tax 
+< 1500000          			0
+>=150000   and  < 500000     20%
+otherwise                    30%      
