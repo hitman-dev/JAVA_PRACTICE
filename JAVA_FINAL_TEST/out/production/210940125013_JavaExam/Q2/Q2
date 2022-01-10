@@ -1,0 +1,6 @@
+Q2. Design a layered Java application to store server details in given in Q1 in Hash set.
+ [15 Marks]
+If for 2 servers location and duration is same then the server is considered as duplicate and hence should
+not get added in the set
+1. Accept new server from user add it in hashset
+2. Display all server details

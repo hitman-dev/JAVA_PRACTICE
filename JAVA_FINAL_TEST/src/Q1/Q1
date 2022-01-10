@@ -1,0 +1,13 @@
+Q1. Design Java application using JDBC for the following use Exception wherever necessary[25 Marks]
+Consider a table with following format--- contains multiple records
+Serverid, Server location, duration, purchase date, validity end date, Ram, price
+123, Dubai, 4 days,2018-12-12,2019-12-12, 50GB, 500000.00
+Create serverPOJO ,serverDao & Tester for the following requirements.
+Display following menu
+1. Add new server ---- Add new server in the existing file
+2. Delete a server ---- Delete server from file
+3. Search servers based on no of days ---accept no of days from user display all servers with duration <
+or equal to given duration
+4. Search servers based on price----accept price from user display all servers with price < or equal to
+given duration
+5. Exit
